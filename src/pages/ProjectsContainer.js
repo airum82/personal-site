@@ -11,6 +11,7 @@ const ProjectsContainer = (props) => (
           <Project
             name={project.name}
             description={project.description}
+            img={project.img}
             url={props.url} 
           />
         ))

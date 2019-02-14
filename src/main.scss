@@ -25,15 +25,8 @@ body {
   }
 }
 
-.animation {
-  height: 50vh;
-  width: 100%;
-  .animation_img {
-    height: 20vh;
-    margin-top: 15%;
-    animation: travel 5s infinite alternate,
-      // return 5s steps(5, end) infinite;
-  }
+.project-img {
+  height: 40vh;
 }
 
 @keyframes travel {

@@ -5,11 +5,9 @@ import Layout from '../components/Layout';
 import Bio from '../components/Bio';
 
 const IndexPage = () => (
-  <div>
-    <Layout>
-      <Bio /> 
-    </Layout> 
-  </div>
+  <Layout>
+    <Bio /> 
+  </Layout> 
 )
 
 export default IndexPage;

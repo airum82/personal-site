@@ -5,6 +5,7 @@ const Layout = ({ children }) => (
   <div>
     <header className="header-bar">
       <div className="header-bar_div">
+        <Link to="/">Home</Link>
         <Link to='/Contact/'>Contact</Link>
         <Link to='/ProjectsContainer/'>Projects</Link>
       </div>

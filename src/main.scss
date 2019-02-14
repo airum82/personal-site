@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
+
+$color1: rgba(36, 123, 160, 1);
+$color2: rgba(236, 8, 104, 1);
+$color3: rgba(252, 47, 0, 1);
+$color4: rgba(236, 125, 16, 1);
+$color5: rgba(112, 193, 179, 1);
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  color: $color1;
+  background-color: $color5;
+}
+
+.header-bar {
+  background-color: $color4;
+  text-align: right;
+  .header-bar_div {
+    padding: 1%;
+    * {
+      padding: 1%;
+      text-decoration: none;
+      color: $color1;
+    }
+  }
+}
+
+.animation {
+  height: 50vh;
+  width: 100%;
+  .animation_img {
+    height: 20vh;
+    margin-top: 15%;
+    animation: travel 5s infinite alternate,
+      // return 5s steps(5, end) infinite;
+  }
+}
+
+@keyframes travel {
+  from {
+    margin-left: 0%;
+  }
+
+  to {
+    margin-left: 85%;
+    transition: transform 2s ease-in-out 1s;
+    transform: scaleX(-1);
+  }
+}
+
+// @keyframes return {
+//   to {
+//     transform: scaleX(-1);
+//   }
+
+//   from {
+//     transform: scaleX(1);
+//   }
+// }

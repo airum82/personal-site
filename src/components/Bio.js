@@ -6,6 +6,7 @@ const Bio = (props) => (
     <p>Hi, I'm Arram and I enjoy working with a myriad
        of technologies to create amazing applications, both professionally and personally.
     </p>
+    <p>When not enveloped in my development career I am strength training, running and researching more about fitness. During the summers I enjoy hiking, camping and some white water rafting.</p>
   </article>
 )
 

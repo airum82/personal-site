@@ -4,8 +4,8 @@ import '../main.scss';
 import Layout from '../components/Layout';
 import Bio from '../components/Bio';
 
-const IndexPage = () => (
-  <Layout>
+const IndexPage = ({ location }) => (
+  <Layout location={location}>
     <Bio /> 
   </Layout> 
 )

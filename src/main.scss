@@ -21,6 +21,12 @@ body {
       padding: 1%;
       text-decoration: none;
       color: $color1;
+    };
+    *:hover {
+      color: white;
+    }
+    .header-selected {
+      color: white;
     }
   }
 }
@@ -29,24 +35,9 @@ body {
   height: 40vh;
 }
 
-@keyframes travel {
-  from {
-    margin-left: 0%;
-  }
-
-  to {
-    margin-left: 85%;
-    transition: transform 2s ease-in-out 1s;
-    transform: scaleX(-1);
+.contact {
+  * {
+    text-decoration: none;
+    color: $color1;
   }
 }
-
-// @keyframes return {
-//   to {
-//     transform: scaleX(-1);
-//   }
-
-//   from {
-//     transform: scaleX(1);
-//   }
-// }
